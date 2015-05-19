@@ -18,14 +18,14 @@
 }
 
 body {
-  background: #add9e4;
-  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
-  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
-  background-color: #f7fbfc; }
+  background: #fff;
+  background: -moz-radial-gradient(center, circle cover, #fff 0%, #fff 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(100%, #fff));
+  background: -webkit-radial-gradient(center, circle cover, #fff 0%, #fff 100%);
+  background: -o-radial-gradient(center, circle cover, #fff 0%, #fff 100%);
+  background: -ms-radial-gradient(center, circle cover, #fff 0%, #fff 100%);
+  background: radial-gradient(center, circle cover, #fff 0%, #fff 100%);
+  background-color: #fff; }
 
 .reveal {
   font-family: 'Open Sans', sans-serif;
@@ -81,7 +81,7 @@ body {
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: auto;
-  max-height: 95%; }
+  max-height: 85%; }
 
 .reveal strong, .reveal b {
   font-weight: bold; }
@@ -213,7 +213,11 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  /*margin: 15px 0px; */
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+
   /*background: rgba(255, 255, 255, 0.12);
   border: 4px solid #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/ }
